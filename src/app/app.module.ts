@@ -15,6 +15,7 @@ import { RetosTab } from '../pages/retos/retos';
 import { configuracionTab } from '../pages/Settings/configuracion';
 import { infoChangeModal } from '../pages/Settings/infoChangeModal';
 import { RetoComponente } from '../pages/retos/retoComp/retoComponente';
+import { loginModal } from '../pages/Login/loginModal';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RetoComponente } from '../pages/retos/retoComp/retoComponente';
     TabsPage,
     configuracionTab,
     infoChangeModal,
-    RetoComponente
+    RetoComponente,
+    loginModal
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { RetoComponente } from '../pages/retos/retoComp/retoComponente';
     TabsPage,
     configuracionTab,
     infoChangeModal,
-    RetoComponente
+    RetoComponente,
+    loginModal
   ],
   providers: [
     StatusBar,
